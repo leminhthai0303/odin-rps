@@ -13,7 +13,7 @@ function score(player, comp){
     if (player === comp) {
         return "tie"
     } else 
-    if ((player === "rock" && comp === "scissors") || (player === "paper" && comp === "rock") || (player === "scissors" && comp === "rock")) {
+    if ((player === "rock" && comp === "scissors") || (player === "paper" && comp === "rock") || (player === "scissors" && comp === "paper")) {
         return "win"
     }
     else {
